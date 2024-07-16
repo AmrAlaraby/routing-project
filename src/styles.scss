@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.height-45{
+    height: 45vh ;
+}
+
+.height-80{
+    height: 80vh ;
+}
+small{
+    color: grey;
+    text-transform: uppercase;
+}
+
+.card{
+    transition: all 0.5s;
+}
+
+.card:hover{
+    background: #09c;
+    color: white;
+    cursor: pointer;
+}

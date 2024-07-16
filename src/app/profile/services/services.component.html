@@ -1,0 +1,47 @@
+<div class="container height-80 d-flex flex-column ">
+  <div class="row">
+    <div class="w-50">
+      <small>what i do ? </small>
+      <h2>here are some of my experties</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 mt-2 ">
+      <div  [routerLink]="['/services/graphic']" [routerLinkActive]="['active-card']" class="card " style="width: 100%">
+        <div class="card-body">
+          <h5 class="card-title">graphic design</h5>
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div  class="col-md-4 mt-2">
+      <div [routerLink]="['/services/software']" [routerLinkActive]="['active-card']" class="card " style="width: 100%">
+        <div class="card-body">
+          <h5 class="card-title">software</h5>
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div  class="col-md-4 mt-2">
+      <div  [routerLink]="['/services/application']" [routerLinkActive]="['active-card']" class="card " style="width: 100%">
+        <div class="card-body">
+          <h5 class="card-title">application</h5>
+
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <router-outlet></router-outlet>
+  </div>
+</div>
